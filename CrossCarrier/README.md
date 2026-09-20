@@ -45,7 +45,25 @@ ln -s "$ASSETS/EXPERIMENTSRESULT/REVISION_5090/A_V13_GRL" EXPERIMENTSRESULT/REVI
 
 ```bash
 python -m pip install -r requirements-portable.txt
+```
+
+如果数据已复制到当前代码目录，生成划分索引：
+
+```bash
 python prepare_cross_frequency.py --protocol both
+```
+
+如果使用上面的符号链接复用已有数据，改用下面这条命令（`ASSETS` 为已有原包的根目录，需包含 `tasks/known_people_unknown_freq/manifest`）：
+
+```bash
+python prepare_cross_frequency.py --protocol both --root "$ASSETS"
+```
+
+此命令只读取图片和原始 manifest，向原包的 `tasks/` 下写入新增划分索引与审计报告，不修改图片或原始 manifest。索引会通过 `tasks` 链接供新代码使用；原包目录需要可写。不要在使用这些索引的训练作业运行期间重新生成。
+
+准备好索引后运行测试：
+
+```bash
 python -m unittest discover -s tests
 ```
 
