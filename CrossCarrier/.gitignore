@@ -1,0 +1,57 @@
+# Data, weights and private experiment assets (also ignore symlink mounts)
+/tasks
+/weights
+/data
+/dataset
+/paper
+/local_validation
+/output
+/outputs
+/runs
+/EXPERIMENTSRESULT/REVISION_5090/A_V13_GRL
+**/checkpoints/
+**/epoch_ckpts/
+**/manifests/
+**/reports/
+
+# Model/data archives and generated predictions
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.npz
+*.npy
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.log
+slurm-*.out
+slurm-*.err
+
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# Personal HPC activation/configuration; keep the portable template
+/hpc/config.sh
+/hpc/config.*.sh
+!/hpc/config.example.sh
+/activate*.sh
+.env
+.env.*
+!.env.example
+.ssh/
+*.pem
+*.key
+.DS_Store
+Thumbs.db

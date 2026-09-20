@@ -1,0 +1,13 @@
+# Install a matching CUDA torch/torchvision pair BEFORE this file.
+# Original author did not record peft/transformers versions. These are a new
+# pinned compatibility environment, validated by the supplied local run report.
+timm==1.0.26
+numpy==2.2.6
+pandas==2.3.3
+pillow==12.2.0
+huggingface_hub==1.17.0
+safetensors==0.7.0
+scipy==1.15.3
+peft==0.18.1
+transformers==5.5.0
+tqdm>=4.67,<5
