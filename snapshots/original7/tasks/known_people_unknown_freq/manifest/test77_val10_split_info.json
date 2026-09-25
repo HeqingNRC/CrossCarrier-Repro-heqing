@@ -1,0 +1,139 @@
+{
+  "protocol": "val10_target_F1_selection",
+  "frac": 0.1,
+  "seed": 42,
+  "classes": {
+    "Away": {
+      "total": 60,
+      "val": 6,
+      "test": 54,
+      "val_frac_actual": 0.1,
+      "subject_counts": {
+        "ua_0010": 11,
+        "ua_0014": 8,
+        "ua_0029": 21,
+        "ua_0030": 20
+      },
+      "subject_val_quotas": {
+        "ua_0010": 1,
+        "ua_0014": 1,
+        "ua_0029": 2,
+        "ua_0030": 2
+      }
+    },
+    "Bend": {
+      "total": 59,
+      "val": 6,
+      "test": 53,
+      "val_frac_actual": 0.1017,
+      "subject_counts": {
+        "ua_0010": 10,
+        "ua_0014": 9,
+        "ua_0029": 20,
+        "ua_0030": 20
+      },
+      "subject_val_quotas": {
+        "ua_0010": 1,
+        "ua_0014": 1,
+        "ua_0029": 2,
+        "ua_0030": 2
+      }
+    },
+    "Kneel": {
+      "total": 62,
+      "val": 6,
+      "test": 56,
+      "val_frac_actual": 0.0968,
+      "subject_counts": {
+        "ua_0010": 12,
+        "ua_0014": 10,
+        "ua_0029": 20,
+        "ua_0030": 20
+      },
+      "subject_val_quotas": {
+        "ua_0010": 1,
+        "ua_0014": 1,
+        "ua_0029": 2,
+        "ua_0030": 2
+      }
+    },
+    "Pick": {
+      "total": 60,
+      "val": 6,
+      "test": 54,
+      "val_frac_actual": 0.1,
+      "subject_counts": {
+        "ua_0010": 10,
+        "ua_0014": 10,
+        "ua_0029": 21,
+        "ua_0030": 19
+      },
+      "subject_val_quotas": {
+        "ua_0010": 1,
+        "ua_0014": 1,
+        "ua_0029": 2,
+        "ua_0030": 2
+      }
+    },
+    "SStep": {
+      "total": 60,
+      "val": 6,
+      "test": 54,
+      "val_frac_actual": 0.1,
+      "subject_counts": {
+        "ua_0010": 10,
+        "ua_0014": 9,
+        "ua_0029": 21,
+        "ua_0030": 20
+      },
+      "subject_val_quotas": {
+        "ua_0010": 1,
+        "ua_0014": 1,
+        "ua_0029": 2,
+        "ua_0030": 2
+      }
+    },
+    "Sit": {
+      "total": 57,
+      "val": 6,
+      "test": 51,
+      "val_frac_actual": 0.1053,
+      "subject_counts": {
+        "ua_0010": 10,
+        "ua_0014": 10,
+        "ua_0029": 20,
+        "ua_0030": 17
+      },
+      "subject_val_quotas": {
+        "ua_0010": 1,
+        "ua_0014": 1,
+        "ua_0029": 2,
+        "ua_0030": 2
+      }
+    },
+    "Towards": {
+      "total": 60,
+      "val": 6,
+      "test": 54,
+      "val_frac_actual": 0.1,
+      "subject_counts": {
+        "ua_0000": 9,
+        "ua_0010": 10,
+        "ua_0029": 20,
+        "ua_0030": 21
+      },
+      "subject_val_quotas": {
+        "ua_0000": 1,
+        "ua_0010": 1,
+        "ua_0029": 2,
+        "ua_0030": 2
+      }
+    }
+  },
+  "totals": {
+    "test77_full": 418,
+    "val": 42,
+    "final_test": 376,
+    "val_frac_actual": 0.1005
+  }
+}

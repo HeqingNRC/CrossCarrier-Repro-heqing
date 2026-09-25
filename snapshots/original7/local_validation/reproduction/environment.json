@@ -1,0 +1,18 @@
+{
+  "python": "3.12.13",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "timm": "1.0.26",
+    "peft": "0.18.1",
+    "transformers": "5.5.0",
+    "numpy": "2.2.6",
+    "pillow": "12.2.0",
+    "huggingface_hub": "1.17.0"
+  },
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "batch_size": 8,
+  "requested_precision": "bf16",
+  "protocol": "legacy full-418, shipped final-EMA checkpoints",
+  "note": "New inference run; numerical differences possible across hardware and precision."
+}

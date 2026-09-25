@@ -1,0 +1,125 @@
+{
+  "seed": 42,
+  "dev_per_class": 20,
+  "classes": {
+    "Away": {
+      "total_rows": 60,
+      "dev_rows": 20,
+      "test_rows": 40,
+      "subject_counts": {
+        "ua_0010": 11,
+        "ua_0014": 8,
+        "ua_0029": 21,
+        "ua_0030": 20
+      },
+      "subject_dev_quotas": {
+        "ua_0010": 4,
+        "ua_0014": 3,
+        "ua_0029": 7,
+        "ua_0030": 6
+      }
+    },
+    "Bend": {
+      "total_rows": 59,
+      "dev_rows": 20,
+      "test_rows": 39,
+      "subject_counts": {
+        "ua_0010": 10,
+        "ua_0014": 9,
+        "ua_0029": 20,
+        "ua_0030": 20
+      },
+      "subject_dev_quotas": {
+        "ua_0010": 4,
+        "ua_0014": 3,
+        "ua_0029": 7,
+        "ua_0030": 6
+      }
+    },
+    "Kneel": {
+      "total_rows": 62,
+      "dev_rows": 20,
+      "test_rows": 42,
+      "subject_counts": {
+        "ua_0010": 12,
+        "ua_0014": 10,
+        "ua_0029": 20,
+        "ua_0030": 20
+      },
+      "subject_dev_quotas": {
+        "ua_0010": 4,
+        "ua_0014": 4,
+        "ua_0029": 6,
+        "ua_0030": 6
+      }
+    },
+    "Pick": {
+      "total_rows": 60,
+      "dev_rows": 20,
+      "test_rows": 40,
+      "subject_counts": {
+        "ua_0010": 10,
+        "ua_0014": 10,
+        "ua_0029": 21,
+        "ua_0030": 19
+      },
+      "subject_dev_quotas": {
+        "ua_0010": 4,
+        "ua_0014": 3,
+        "ua_0029": 7,
+        "ua_0030": 6
+      }
+    },
+    "SStep": {
+      "total_rows": 60,
+      "dev_rows": 20,
+      "test_rows": 40,
+      "subject_counts": {
+        "ua_0010": 10,
+        "ua_0014": 9,
+        "ua_0029": 21,
+        "ua_0030": 20
+      },
+      "subject_dev_quotas": {
+        "ua_0010": 4,
+        "ua_0014": 3,
+        "ua_0029": 7,
+        "ua_0030": 6
+      }
+    },
+    "Sit": {
+      "total_rows": 57,
+      "dev_rows": 20,
+      "test_rows": 37,
+      "subject_counts": {
+        "ua_0010": 10,
+        "ua_0014": 10,
+        "ua_0029": 20,
+        "ua_0030": 17
+      },
+      "subject_dev_quotas": {
+        "ua_0010": 4,
+        "ua_0014": 3,
+        "ua_0029": 7,
+        "ua_0030": 6
+      }
+    },
+    "Towards": {
+      "total_rows": 60,
+      "dev_rows": 20,
+      "test_rows": 40,
+      "subject_counts": {
+        "ua_0000": 9,
+        "ua_0010": 10,
+        "ua_0029": 20,
+        "ua_0030": 21
+      },
+      "subject_dev_quotas": {
+        "ua_0000": 3,
+        "ua_0010": 4,
+        "ua_0029": 6,
+        "ua_0030": 7
+      }
+    }
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "pool_threshold": 0.9,
+  "pool_period": 10,
+  "selection_metric": "dev77_f1",
+  "pool_size": 7,
+  "members": [
+    {
+      "epoch": 40,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/DAS_ERM/seed31415/checkpoints/pool_ep040_ema.pt",
+      "source_val_acc_ema": 0.9074074074074074,
+      "source_val_f1_ema": 0.9095135023706453,
+      "dev77_acc": 0.22142857142857142,
+      "dev77_f1": 0.09883998093119338,
+      "dev77_per_class": {
+        "Away": 0.0,
+        "Bend": 0.85,
+        "Kneel": 0.0,
+        "Pick": 0.0,
+        "SStep": 0.0,
+        "Sit": 0.0,
+        "Towards": 0.7
+      },
+      "test77_acc": 0.22302158273381295,
+      "test77_f1": 0.09925916624811652,
+      "test77_per_class": {
+        "Away": 0.0,
+        "Bend": 0.7948717948717948,
+        "Kneel": 0.0,
+        "Pick": 0.0,
+        "SStep": 0.0,
+        "Sit": 0.0,
+        "Towards": 0.775
+      }
+    },
+    {
+      "epoch": 50,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/DAS_ERM/seed31415/checkpoints/pool_ep050_ema.pt",
+      "source_val_acc_ema": 0.9320987654320988,
+      "source_val_f1_ema": 0.9323724879021373,
+      "dev77_acc": 0.21428571428571427,
+      "dev77_f1": 0.10799484203739522,
+      "dev77_per_class": {
+        "Away": 0.0,
+        "Bend": 0.55,
+        "Kneel": 0.0,
+        "Pick": 0.0,
+        "SStep": 0.0,
+        "Sit": 0.0,
+        "Towards": 0.95
+      },
+      "test77_acc": 0.20503597122302158,
+      "test77_f1": 0.09915966386554621,
+      "test77_per_class": {
+        "Away": 0.0,
+        "Bend": 0.4358974358974359,
+        "Kneel": 0.0,
+        "Pick": 0.0,
+        "SStep": 0.0,
+        "Sit": 0.0,
+        "Towards": 1.0
+      }
+    },
+    {
+      "epoch": 60,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/DAS_ERM/seed31415/checkpoints/pool_ep060_ema.pt",
+      "source_val_acc_ema": 0.9444444444444444,
+      "source_val_f1_ema": 0.9452845463715029,
+      "dev77_acc": 0.15714285714285714,
+      "dev77_f1": 0.06432930626479014,
+      "dev77_per_class": {
+        "Away": 0.0,
+        "Bend": 0.15,
+        "Kneel": 0.0,
+        "Pick": 0.0,
+        "SStep": 0.0,
+        "Sit": 0.0,
+        "Towards": 0.95
+      },
+      "test77_acc": 0.16546762589928057,
+      "test77_f1": 0.06901178291906769,
+      "test77_per_class": {
+        "Away": 0.0,
+        "Bend": 0.15384615384615385,
+        "Kneel": 0.0,
+        "Pick": 0.0,
+        "SStep": 0.0,
+        "Sit": 0.0,
+        "Towards": 1.0
+      }
+    },
+    {
+      "epoch": 70,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/DAS_ERM/seed31415/checkpoints/pool_ep070_ema.pt",
+      "source_val_acc_ema": 0.9444444444444444,
+      "source_val_f1_ema": 0.9452845463715029,
+      "dev77_acc": 0.15,
+      "dev77_f1": 0.05964325529542921,
+      "dev77_per_class": {
+        "Away": 0.0,
+        "Bend": 0.1,
+        "Kneel": 0.0,
+        "Pick": 0.0,
+        "SStep": 0.0,
+        "Sit": 0.0,
+        "Towards": 0.95
+      },
+      "test77_acc": 0.15827338129496402,
+      "test77_f1": 0.06118246886949701,
+      "test77_per_class": {
+        "Away": 0.0,
+        "Bend": 0.10256410256410256,
+        "Kneel": 0.0,
+        "Pick": 0.0,
+        "SStep": 0.0,
+        "Sit": 0.0,
+        "Towards": 1.0
+      }
+    },
+    {
+      "epoch": 80,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/DAS_ERM/seed31415/checkpoints/pool_ep080_ema.pt",
+      "source_val_acc_ema": 0.9382716049382716,
+      "source_val_f1_ema": 0.9391874266725594,
+      "dev77_acc": 0.15,
+      "dev77_f1": 0.05964325529542921,
+      "dev77_per_class": {
+        "Away": 0.0,
+        "Bend": 0.1,
+        "Kneel": 0.0,
+        "Pick": 0.0,
+        "SStep": 0.0,
+        "Sit": 0.0,
+        "Towards": 0.95
+      },
+      "test77_acc": 0.1474820143884892,
+      "test77_f1": 0.0430412425672387,
+      "test77_per_class": {
+        "Away": 0.0,
+        "Bend": 0.02564102564102564,
+        "Kneel": 0.0,
+        "Pick": 0.0,
+        "SStep": 0.0,
+        "Sit": 0.0,
+        "Towards": 1.0
+      }
+    },
+    {
+      "epoch": 90,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/DAS_ERM/seed31415/checkpoints/pool_ep090_ema.pt",
+      "source_val_acc_ema": 0.9444444444444444,
+      "source_val_f1_ema": 0.9448699957223811,
+      "dev77_acc": 0.14285714285714285,
+      "dev77_f1": 0.04796348919314562,
+      "dev77_per_class": {
+        "Away": 0.0,
+        "Bend": 0.05,
+        "Kneel": 0.0,
+        "Pick": 0.0,
+        "SStep": 0.0,
+        "Sit": 0.0,
+        "Towards": 0.95
+      },
+      "test77_acc": 0.1474820143884892,
+      "test77_f1": 0.04313500639527191,
+      "test77_per_class": {
+        "Away": 0.0,
+        "Bend": 0.02564102564102564,
+        "Kneel": 0.0,
+        "Pick": 0.0,
+        "SStep": 0.0,
+        "Sit": 0.0,
+        "Towards": 1.0
+      }
+    },
+    {
+      "epoch": 100,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/DAS_ERM/seed31415/checkpoints/pool_ep100_ema.pt",
+      "source_val_acc_ema": 0.9320987654320988,
+      "source_val_f1_ema": 0.9325797882425343,
+      "dev77_acc": 0.14285714285714285,
+      "dev77_f1": 0.04796348919314562,
+      "dev77_per_class": {
+        "Away": 0.0,
+        "Bend": 0.05,
+        "Kneel": 0.0,
+        "Pick": 0.0,
+        "SStep": 0.0,
+        "Sit": 0.0,
+        "Towards": 0.95
+      },
+      "test77_acc": 0.1474820143884892,
+      "test77_f1": 0.04313500639527191,
+      "test77_per_class": {
+        "Away": 0.0,
+        "Bend": 0.02564102564102564,
+        "Kneel": 0.0,
+        "Pick": 0.0,
+        "SStep": 0.0,
+        "Sit": 0.0,
+        "Towards": 1.0
+      }
+    }
+  ],
+  "best": {
+    "epoch": 50,
+    "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/DAS_ERM/seed31415/checkpoints/pool_ep050_ema.pt",
+    "source_val_acc_ema": 0.9320987654320988,
+    "source_val_f1_ema": 0.9323724879021373,
+    "dev77_acc": 0.21428571428571427,
+    "dev77_f1": 0.10799484203739522,
+    "dev77_per_class": {
+      "Away": 0.0,
+      "Bend": 0.55,
+      "Kneel": 0.0,
+      "Pick": 0.0,
+      "SStep": 0.0,
+      "Sit": 0.0,
+      "Towards": 0.95
+    },
+    "test77_acc": 0.20503597122302158,
+    "test77_f1": 0.09915966386554621,
+    "test77_per_class": {
+      "Away": 0.0,
+      "Bend": 0.4358974358974359,
+      "Kneel": 0.0,
+      "Pick": 0.0,
+      "SStep": 0.0,
+      "Sit": 0.0,
+      "Towards": 1.0
+    },
+    "best_pool_ema_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/DAS_ERM/seed31415/checkpoints/best_pool_ema.pt"
+  }
+}

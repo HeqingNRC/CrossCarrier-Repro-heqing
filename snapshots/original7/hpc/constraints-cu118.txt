@@ -1,0 +1,4 @@
+# Optional V100 candidate; NOT validated on Sockeye yet.
+# Use after installing this pair from https://download.pytorch.org/whl/cu118.
+torch==2.7.1+cu118
+torchvision==0.22.1+cu118

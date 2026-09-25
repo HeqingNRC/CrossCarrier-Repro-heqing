@@ -1,0 +1,67 @@
+python.exe : test_control_with_unintended_difference_rejected 
+(test_aggregate_cross_frequency.AggregateCrossFrequencyTests.test_control_with_unintended_difference_rejected) ... ok
+At line:2 char:1
++ & '.\work\venv\Scripts\python.exe' -m unittest discover -s work\Cross ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_control_wi...ejected) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_duplicate_seed_rejected 
+(test_aggregate_cross_frequency.AggregateCrossFrequencyTests.test_duplicate_seed_rejected) ... ok
+test_mean_both_standard_deviations_and_distinct_ensembles (test_aggregate_cross_frequency.AggregateCrossFrequencyTests.
+test_mean_both_standard_deviations_and_distinct_ensembles) ... ok
+test_metric_prediction_disagreement_rejected 
+(test_aggregate_cross_frequency.AggregateCrossFrequencyTests.test_metric_prediction_disagreement_rejected) ... ok
+test_missing_seed_rejected (test_aggregate_cross_frequency.AggregateCrossFrequencyTests.test_missing_seed_rejected) 
+... ok
+test_mixed_training_configuration_rejected 
+(test_aggregate_cross_frequency.AggregateCrossFrequencyTests.test_mixed_training_configuration_rejected) ... ok
+test_only_smoke_or_no_reports_produce_clear_error 
+(test_aggregate_cross_frequency.AggregateCrossFrequencyTests.test_only_smoke_or_no_reports_produce_clear_error) ... ok
+test_paired_control_deltas_follow_seed_order 
+(test_aggregate_cross_frequency.AggregateCrossFrequencyTests.test_paired_control_deltas_follow_seed_order) ... ok
+test_scientific_hash_mismatch_rejected 
+(test_aggregate_cross_frequency.AggregateCrossFrequencyTests.test_scientific_hash_mismatch_rejected) ... ok
+test_smoke_report_skipped_before_config_or_predictions_read (test_aggregate_cross_frequency.AggregateCrossFrequencyTest
+s.test_smoke_report_skipped_before_config_or_predictions_read) ... ok
+test_source_manifest_change_rejected 
+(test_aggregate_cross_frequency.AggregateCrossFrequencyTests.test_source_manifest_change_rejected) ... ok
+test_target_manifest_change_rejected 
+(test_aggregate_cross_frequency.AggregateCrossFrequencyTests.test_target_manifest_change_rejected) ... ok
+test_target_path_misalignment_rejected 
+(test_aggregate_cross_frequency.AggregateCrossFrequencyTests.test_target_path_misalignment_rejected) ... ok
+test_unexpected_seed_rejected 
+(test_aggregate_cross_frequency.AggregateCrossFrequencyTests.test_unexpected_seed_rejected) ... ok
+test_grouped_cannot_mislabel_legacy_task_override 
+(test_cross_frequency.CrossFrequencyTests.test_grouped_cannot_mislabel_legacy_task_override) ... ok
+test_legacy_new_direction_rejected (test_cross_frequency.CrossFrequencyTests.test_legacy_new_direction_rejected) ... ok
+test_multiple_configurations_fail_before_importing_torch 
+(test_cross_frequency.CrossFrequencyTests.test_multiple_configurations_fail_before_importing_torch) ... ok
+test_native_precision_policy (test_cross_frequency.CrossFrequencyTests.test_native_precision_policy) ... ok
+test_preflight_never_reads_target (test_cross_frequency.CrossFrequencyTests.test_preflight_never_reads_target) ... ok
+test_short_run_requires_smoke_marker (test_cross_frequency.CrossFrequencyTests.test_short_run_requires_smoke_marker) 
+... ok
+test_target_frequency_contamination_rejected_before_image_loading 
+(test_cross_frequency.CrossFrequencyTests.test_target_frequency_contamination_rejected_before_image_loading) ... ok
+test_three_physical_source_pairs (test_cross_frequency.CrossFrequencyTests.test_three_physical_source_pairs) ... ok
+test_assignment_deterministic_across_order_and_frequency_direction (test_prepare_cross_frequency.CrossFrequencyProtocol
+Tests.test_assignment_deterministic_across_order_and_frequency_direction) ... ok
+test_conflicting_duplicate_labels_fail 
+(test_prepare_cross_frequency.CrossFrequencyProtocolTests.test_conflicting_duplicate_labels_fail) ... ok
+test_copy_suffix_keeps_recording_identity 
+(test_prepare_cross_frequency.CrossFrequencyProtocolTests.test_copy_suffix_keeps_recording_identity) ... ok
+test_deduplication_prefers_original_file 
+(test_prepare_cross_frequency.CrossFrequencyProtocolTests.test_deduplication_prefers_original_file) ... ok
+test_hash_links_join_different_timestamps 
+(test_prepare_cross_frequency.CrossFrequencyProtocolTests.test_hash_links_join_different_timestamps) ... ok
+test_shared_source_recording_fails_even_with_different_images (test_prepare_cross_frequency.CrossFrequencyProtocolTests
+.test_shared_source_recording_fails_even_with_different_images) ... ok
+test_tampered_target_training_fails 
+(test_prepare_cross_frequency.CrossFrequencyProtocolTests.test_tampered_target_training_fails) ... ok
+test_three_directions_grouped_and_target_excluded 
+(test_prepare_cross_frequency.CrossFrequencyProtocolTests.test_three_directions_grouped_and_target_excluded) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 1.367s
+
+OK

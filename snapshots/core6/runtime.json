@@ -1,0 +1,26 @@
+{
+  "kit": "/scratch/st-zliu-1/heqingz/CrossCarrier_Core6_FullSuite_20260924",
+  "python": "/scratch/st-zliu-1/heqingz/envs/xcarrier_20260922/bin/python",
+  "assets": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro",
+  "source": "/scratch/st-zliu-1/heqingz/CrossCarrier_Core6_FullSuite_20260924/evidence",
+  "prepared": "/scratch/st-zliu-1/heqingz/CrossCarrier_Core6_FullSuite_20260924/prepared",
+  "delivery_sha256": "612076e86717f6f7fdc6646c22c32fc915d8b0337c12f99d008f4ce6ab8fe1c8",
+  "versions": {
+    "torch": "2.5.1+cu118",
+    "torchvision": "0.20.1+cu118",
+    "timm": "1.0.26",
+    "peft": "0.18.1",
+    "transformers": "5.5.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "Pillow": "12.2.0",
+    "safetensors": "0.7.0"
+  },
+  "preserve_legacy_splits": true,
+  "protocol_hashes": {
+    "10GHz": "0adcb6a0f8eec729215dc484a5e3c21958e4f44511580fddfc47d175dd52d0bc",
+    "24GHz": "53361db873b85839d80e82584c7c129bc1d998af267de65905eec9ab985690c0",
+    "77GHz": "b6059323d3db66ea5fd5fc67b68768fd8e78273452710da6afd770f3789f38f6"
+  },
+  "status": "DATA_AND_CPU_CHECKS_PASSED_NO_GPU_JOB_SUBMITTED"
+}

@@ -1,0 +1,204 @@
+{
+  "pool_threshold": 0.9,
+  "pool_period": 10,
+  "selection_metric": "dev77_f1",
+  "members": [
+    {
+      "epoch": 40,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/DAS_stretch_only/seed42/checkpoints/pool_ep040_ema.pt",
+      "source_val_acc_ema": 0.9012345679012346,
+      "source_val_f1_ema": 0.8972405983670064,
+      "dev77_acc": 0.3,
+      "dev77_f1": 0.21104568309537255,
+      "dev77_per_class": {
+        "Away": 0.9,
+        "Bend": 1.0,
+        "Kneel": 0.05,
+        "Pick": 0.0,
+        "SStep": 0.0,
+        "Sit": 0.0,
+        "Towards": 0.15
+      },
+      "test77_acc": 0.3057553956834532,
+      "test77_f1": 0.22232169823531953,
+      "test77_per_class": {
+        "Away": 0.925,
+        "Bend": 1.0,
+        "Kneel": 0.023809523809523808,
+        "Pick": 0.0,
+        "SStep": 0.0,
+        "Sit": 0.0,
+        "Towards": 0.2
+      }
+    },
+    {
+      "epoch": 50,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/DAS_stretch_only/seed42/checkpoints/pool_ep050_ema.pt",
+      "source_val_acc_ema": 0.9382716049382716,
+      "source_val_f1_ema": 0.9394759540477402,
+      "dev77_acc": 0.45714285714285713,
+      "dev77_f1": 0.39935136208428135,
+      "dev77_per_class": {
+        "Away": 1.0,
+        "Bend": 1.0,
+        "Kneel": 0.5,
+        "Pick": 0.1,
+        "SStep": 0.15,
+        "Sit": 0.05,
+        "Towards": 0.4
+      },
+      "test77_acc": 0.49280575539568344,
+      "test77_f1": 0.41925785797669163,
+      "test77_per_class": {
+        "Away": 1.0,
+        "Bend": 1.0,
+        "Kneel": 0.5952380952380952,
+        "Pick": 0.05,
+        "SStep": 0.1,
+        "Sit": 0.02702702702702703,
+        "Towards": 0.65
+      }
+    },
+    {
+      "epoch": 60,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/DAS_stretch_only/seed42/checkpoints/pool_ep060_ema.pt",
+      "source_val_acc_ema": 0.9567901234567902,
+      "source_val_f1_ema": 0.9578513223471207,
+      "dev77_acc": 0.5857142857142857,
+      "dev77_f1": 0.5558203901221332,
+      "dev77_per_class": {
+        "Away": 1.0,
+        "Bend": 0.9,
+        "Kneel": 0.75,
+        "Pick": 0.3,
+        "SStep": 0.5,
+        "Sit": 0.1,
+        "Towards": 0.55
+      },
+      "test77_acc": 0.6007194244604317,
+      "test77_f1": 0.5642030689590858,
+      "test77_per_class": {
+        "Away": 1.0,
+        "Bend": 0.8717948717948718,
+        "Kneel": 0.7380952380952381,
+        "Pick": 0.4,
+        "SStep": 0.425,
+        "Sit": 0.02702702702702703,
+        "Towards": 0.7
+      }
+    },
+    {
+      "epoch": 70,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/DAS_stretch_only/seed42/checkpoints/pool_ep070_ema.pt",
+      "source_val_acc_ema": 0.9629629629629629,
+      "source_val_f1_ema": 0.964029495744139,
+      "dev77_acc": 0.6357142857142857,
+      "dev77_f1": 0.6126565059696798,
+      "dev77_per_class": {
+        "Away": 1.0,
+        "Bend": 0.8,
+        "Kneel": 0.75,
+        "Pick": 0.55,
+        "SStep": 0.7,
+        "Sit": 0.1,
+        "Towards": 0.55
+      },
+      "test77_acc": 0.6402877697841727,
+      "test77_f1": 0.6114903900681332,
+      "test77_per_class": {
+        "Away": 1.0,
+        "Bend": 0.7692307692307693,
+        "Kneel": 0.7857142857142857,
+        "Pick": 0.575,
+        "SStep": 0.525,
+        "Sit": 0.05405405405405406,
+        "Towards": 0.725
+      }
+    },
+    {
+      "epoch": 80,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/DAS_stretch_only/seed42/checkpoints/pool_ep080_ema.pt",
+      "source_val_acc_ema": 0.9629629629629629,
+      "source_val_f1_ema": 0.964029495744139,
+      "dev77_acc": 0.6285714285714286,
+      "dev77_f1": 0.6099691272290861,
+      "dev77_per_class": {
+        "Away": 0.95,
+        "Bend": 0.6,
+        "Kneel": 0.8,
+        "Pick": 0.55,
+        "SStep": 0.8,
+        "Sit": 0.15,
+        "Towards": 0.55
+      },
+      "test77_acc": 0.658273381294964,
+      "test77_f1": 0.6344927663021259,
+      "test77_per_class": {
+        "Away": 1.0,
+        "Bend": 0.6923076923076923,
+        "Kneel": 0.7857142857142857,
+        "Pick": 0.675,
+        "SStep": 0.625,
+        "Sit": 0.05405405405405406,
+        "Towards": 0.725
+      }
+    },
+    {
+      "epoch": 90,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/DAS_stretch_only/seed42/checkpoints/pool_ep090_ema.pt",
+      "source_val_acc_ema": 0.9629629629629629,
+      "source_val_f1_ema": 0.964029495744139,
+      "dev77_acc": 0.65,
+      "dev77_f1": 0.6319419296143434,
+      "dev77_per_class": {
+        "Away": 0.95,
+        "Bend": 0.55,
+        "Kneel": 0.8,
+        "Pick": 0.65,
+        "SStep": 0.9,
+        "Sit": 0.15,
+        "Towards": 0.55
+      },
+      "test77_acc": 0.6762589928057554,
+      "test77_f1": 0.6558750906605176,
+      "test77_per_class": {
+        "Away": 1.0,
+        "Bend": 0.6666666666666666,
+        "Kneel": 0.7857142857142857,
+        "Pick": 0.7,
+        "SStep": 0.7,
+        "Sit": 0.10810810810810811,
+        "Towards": 0.725
+      }
+    },
+    {
+      "epoch": 100,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/DAS_stretch_only/seed42/checkpoints/pool_ep100_ema.pt",
+      "source_val_acc_ema": 0.9629629629629629,
+      "source_val_f1_ema": 0.964029495744139,
+      "dev77_acc": 0.6571428571428571,
+      "dev77_f1": 0.6379083403170406,
+      "dev77_per_class": {
+        "Away": 0.95,
+        "Bend": 0.55,
+        "Kneel": 0.8,
+        "Pick": 0.7,
+        "SStep": 0.9,
+        "Sit": 0.15,
+        "Towards": 0.55
+      },
+      "test77_acc": 0.6834532374100719,
+      "test77_f1": 0.6626046715852697,
+      "test77_per_class": {
+        "Away": 1.0,
+        "Bend": 0.6666666666666666,
+        "Kneel": 0.7857142857142857,
+        "Pick": 0.725,
+        "SStep": 0.725,
+        "Sit": 0.10810810810810811,
+        "Towards": 0.725
+      }
+    }
+  ],
+  "best_idx": 6
+}

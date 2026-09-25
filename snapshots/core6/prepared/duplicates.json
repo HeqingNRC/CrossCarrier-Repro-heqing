@@ -1,0 +1,76 @@
+{
+  "10GHz": [
+    {
+      "digest": "93bd6d1e407cffe84b5f0e26a1dec546b1877968a51fcbfcf15d6368fbe3217e",
+      "rows": [
+        {
+          "path": "/arc/project/st-zliu-1/heqingz/datasets/domainGenDataset_core_movements/77GHz/Pick/04070030_1574457946_Raw_0.png",
+          "frequency": "77GHz",
+          "class": "Pick",
+          "split": "train"
+        },
+        {
+          "path": "/arc/project/st-zliu-1/heqingz/datasets/domainGenDataset_core_movements/77GHz/Pick/04070030_1574457946_Raw_0 (copy).png",
+          "frequency": "77GHz",
+          "class": "Pick",
+          "split": "val"
+        }
+      ]
+    }
+  ],
+  "24GHz": [
+    {
+      "digest": "c0015ff548fe50c2a141eaa9fb7f51f01729dd63c1318d98567216915351ea50",
+      "rows": [
+        {
+          "path": "/arc/project/st-zliu-1/heqingz/datasets/domainGenDataset_core_movements/10GHz/Kneel/06100029_1574628522.png",
+          "frequency": "10GHz",
+          "class": "Kneel",
+          "split": "train"
+        },
+        {
+          "path": "/arc/project/st-zliu-1/heqingz/datasets/domainGenDataset_core_movements/10GHz/Kneel/06100029_1574628522 (copy).png",
+          "frequency": "10GHz",
+          "class": "Kneel",
+          "split": "val"
+        }
+      ]
+    },
+    {
+      "digest": "93bd6d1e407cffe84b5f0e26a1dec546b1877968a51fcbfcf15d6368fbe3217e",
+      "rows": [
+        {
+          "path": "/arc/project/st-zliu-1/heqingz/datasets/domainGenDataset_core_movements/77GHz/Pick/04070030_1574457946_Raw_0.png",
+          "frequency": "77GHz",
+          "class": "Pick",
+          "split": "train"
+        },
+        {
+          "path": "/arc/project/st-zliu-1/heqingz/datasets/domainGenDataset_core_movements/77GHz/Pick/04070030_1574457946_Raw_0 (copy).png",
+          "frequency": "77GHz",
+          "class": "Pick",
+          "split": "val"
+        }
+      ]
+    }
+  ],
+  "77GHz": [
+    {
+      "digest": "c0015ff548fe50c2a141eaa9fb7f51f01729dd63c1318d98567216915351ea50",
+      "rows": [
+        {
+          "path": "/arc/project/st-zliu-1/heqingz/datasets/domainGenDataset_core_movements/10GHz/Kneel/06100029_1574628522.png",
+          "frequency": "10GHz",
+          "class": "Kneel",
+          "split": "train"
+        },
+        {
+          "path": "/arc/project/st-zliu-1/heqingz/datasets/domainGenDataset_core_movements/10GHz/Kneel/06100029_1574628522 (copy).png",
+          "frequency": "10GHz",
+          "class": "Kneel",
+          "split": "val"
+        }
+      ]
+    }
+  ]
+}

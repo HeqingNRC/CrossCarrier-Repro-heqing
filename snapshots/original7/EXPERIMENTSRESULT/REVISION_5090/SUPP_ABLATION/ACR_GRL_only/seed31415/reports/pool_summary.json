@@ -1,0 +1,261 @@
+{
+  "pool_threshold": 0.9,
+  "pool_period": 10,
+  "selection_metric": "dev77_f1",
+  "pool_size": 8,
+  "members": [
+    {
+      "epoch": 30,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/ACR_GRL_only/seed31415/checkpoints/pool_ep030_ema.pt",
+      "source_val_acc_ema": 0.9012345679012346,
+      "source_val_f1_ema": 0.9035358329378262,
+      "dev77_acc": 0.3,
+      "dev77_f1": 0.22413903232317556,
+      "dev77_per_class": {
+        "Away": 0.9,
+        "Bend": 1.0,
+        "Kneel": 0.0,
+        "Pick": 0.0,
+        "SStep": 0.05,
+        "Sit": 0.0,
+        "Towards": 0.15
+      },
+      "test77_acc": 0.302158273381295,
+      "test77_f1": 0.21380656413004726,
+      "test77_per_class": {
+        "Away": 0.975,
+        "Bend": 1.0,
+        "Kneel": 0.0,
+        "Pick": 0.0,
+        "SStep": 0.05,
+        "Sit": 0.0,
+        "Towards": 0.1
+      }
+    },
+    {
+      "epoch": 40,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/ACR_GRL_only/seed31415/checkpoints/pool_ep040_ema.pt",
+      "source_val_acc_ema": 0.9444444444444444,
+      "source_val_f1_ema": 0.94506778707428,
+      "dev77_acc": 0.5,
+      "dev77_f1": 0.415970813479895,
+      "dev77_per_class": {
+        "Away": 0.95,
+        "Bend": 1.0,
+        "Kneel": 0.1,
+        "Pick": 0.0,
+        "SStep": 0.85,
+        "Sit": 0.0,
+        "Towards": 0.6
+      },
+      "test77_acc": 0.5035971223021583,
+      "test77_f1": 0.44119214932894174,
+      "test77_per_class": {
+        "Away": 1.0,
+        "Bend": 1.0,
+        "Kneel": 0.23809523809523808,
+        "Pick": 0.0,
+        "SStep": 0.575,
+        "Sit": 0.0,
+        "Towards": 0.7
+      }
+    },
+    {
+      "epoch": 50,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/ACR_GRL_only/seed31415/checkpoints/pool_ep050_ema.pt",
+      "source_val_acc_ema": 0.9567901234567902,
+      "source_val_f1_ema": 0.9575954069571091,
+      "dev77_acc": 0.6428571428571429,
+      "dev77_f1": 0.6139125419537479,
+      "dev77_per_class": {
+        "Away": 0.95,
+        "Bend": 1.0,
+        "Kneel": 0.3,
+        "Pick": 0.2,
+        "SStep": 0.95,
+        "Sit": 0.3,
+        "Towards": 0.8
+      },
+      "test77_acc": 0.7194244604316546,
+      "test77_f1": 0.7092853424412658,
+      "test77_per_class": {
+        "Away": 1.0,
+        "Bend": 0.9743589743589743,
+        "Kneel": 0.6666666666666666,
+        "Pick": 0.275,
+        "SStep": 0.95,
+        "Sit": 0.40540540540540543,
+        "Towards": 0.75
+      }
+    },
+    {
+      "epoch": 60,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/ACR_GRL_only/seed31415/checkpoints/pool_ep060_ema.pt",
+      "source_val_acc_ema": 0.9629629629629629,
+      "source_val_f1_ema": 0.9633766233766233,
+      "dev77_acc": 0.7642857142857142,
+      "dev77_f1": 0.762342702269665,
+      "dev77_per_class": {
+        "Away": 0.95,
+        "Bend": 0.75,
+        "Kneel": 0.85,
+        "Pick": 0.4,
+        "SStep": 1.0,
+        "Sit": 0.55,
+        "Towards": 0.85
+      },
+      "test77_acc": 0.8237410071942446,
+      "test77_f1": 0.8221757085075277,
+      "test77_per_class": {
+        "Away": 1.0,
+        "Bend": 0.9230769230769231,
+        "Kneel": 0.8095238095238095,
+        "Pick": 0.55,
+        "SStep": 1.0,
+        "Sit": 0.6216216216216216,
+        "Towards": 0.85
+      }
+    },
+    {
+      "epoch": 70,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/ACR_GRL_only/seed31415/checkpoints/pool_ep070_ema.pt",
+      "source_val_acc_ema": 0.9691358024691358,
+      "source_val_f1_ema": 0.9693831020780406,
+      "dev77_acc": 0.8142857142857143,
+      "dev77_f1": 0.8126667757329779,
+      "dev77_per_class": {
+        "Away": 0.95,
+        "Bend": 0.65,
+        "Kneel": 0.85,
+        "Pick": 0.8,
+        "SStep": 1.0,
+        "Sit": 0.6,
+        "Towards": 0.85
+      },
+      "test77_acc": 0.8669064748201439,
+      "test77_f1": 0.8658127993501632,
+      "test77_per_class": {
+        "Away": 1.0,
+        "Bend": 0.8205128205128205,
+        "Kneel": 0.8809523809523809,
+        "Pick": 0.8,
+        "SStep": 1.0,
+        "Sit": 0.6756756756756757,
+        "Towards": 0.875
+      }
+    },
+    {
+      "epoch": 80,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/ACR_GRL_only/seed31415/checkpoints/pool_ep080_ema.pt",
+      "source_val_acc_ema": 0.9691358024691358,
+      "source_val_f1_ema": 0.9693831020780406,
+      "dev77_acc": 0.8214285714285714,
+      "dev77_f1": 0.8188307047192064,
+      "dev77_per_class": {
+        "Away": 0.95,
+        "Bend": 0.65,
+        "Kneel": 0.9,
+        "Pick": 0.8,
+        "SStep": 1.0,
+        "Sit": 0.6,
+        "Towards": 0.85
+      },
+      "test77_acc": 0.8597122302158273,
+      "test77_f1": 0.8570765414745666,
+      "test77_per_class": {
+        "Away": 1.0,
+        "Bend": 0.7692307692307693,
+        "Kneel": 0.8571428571428571,
+        "Pick": 0.825,
+        "SStep": 1.0,
+        "Sit": 0.6486486486486487,
+        "Towards": 0.9
+      }
+    },
+    {
+      "epoch": 90,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/ACR_GRL_only/seed31415/checkpoints/pool_ep090_ema.pt",
+      "source_val_acc_ema": 0.9691358024691358,
+      "source_val_f1_ema": 0.9693831020780406,
+      "dev77_acc": 0.8214285714285714,
+      "dev77_f1": 0.8183729972320848,
+      "dev77_per_class": {
+        "Away": 1.0,
+        "Bend": 0.6,
+        "Kneel": 0.8,
+        "Pick": 0.85,
+        "SStep": 1.0,
+        "Sit": 0.6,
+        "Towards": 0.9
+      },
+      "test77_acc": 0.8669064748201439,
+      "test77_f1": 0.8655552678491122,
+      "test77_per_class": {
+        "Away": 1.0,
+        "Bend": 0.7692307692307693,
+        "Kneel": 0.8333333333333334,
+        "Pick": 0.825,
+        "SStep": 1.0,
+        "Sit": 0.7027027027027027,
+        "Towards": 0.925
+      }
+    },
+    {
+      "epoch": 100,
+      "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/ACR_GRL_only/seed31415/checkpoints/pool_ep100_ema.pt",
+      "source_val_acc_ema": 0.9691358024691358,
+      "source_val_f1_ema": 0.9693831020780406,
+      "dev77_acc": 0.8071428571428572,
+      "dev77_f1": 0.8019577321902904,
+      "dev77_per_class": {
+        "Away": 1.0,
+        "Bend": 0.55,
+        "Kneel": 0.8,
+        "Pick": 0.85,
+        "SStep": 1.0,
+        "Sit": 0.6,
+        "Towards": 0.85
+      },
+      "test77_acc": 0.8597122302158273,
+      "test77_f1": 0.8579223321093241,
+      "test77_per_class": {
+        "Away": 1.0,
+        "Bend": 0.717948717948718,
+        "Kneel": 0.8333333333333334,
+        "Pick": 0.85,
+        "SStep": 1.0,
+        "Sit": 0.7027027027027027,
+        "Towards": 0.9
+      }
+    }
+  ],
+  "best": {
+    "epoch": 80,
+    "ckpt_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/ACR_GRL_only/seed31415/checkpoints/pool_ep080_ema.pt",
+    "source_val_acc_ema": 0.9691358024691358,
+    "source_val_f1_ema": 0.9693831020780406,
+    "dev77_acc": 0.8214285714285714,
+    "dev77_f1": 0.8188307047192064,
+    "dev77_per_class": {
+      "Away": 0.95,
+      "Bend": 0.65,
+      "Kneel": 0.9,
+      "Pick": 0.8,
+      "SStep": 1.0,
+      "Sit": 0.6,
+      "Towards": 0.85
+    },
+    "test77_acc": 0.8597122302158273,
+    "test77_f1": 0.8570765414745666,
+    "test77_per_class": {
+      "Away": 1.0,
+      "Bend": 0.7692307692307693,
+      "Kneel": 0.8571428571428571,
+      "Pick": 0.825,
+      "SStep": 1.0,
+      "Sit": 0.6486486486486487,
+      "Towards": 0.9
+    },
+    "best_pool_ema_path": "/scratch/st-zliu-1/heqingz/CrossCarrier_Fresh_20260922/CrossCarrier_Repro/EXPERIMENTSRESULT/REVISION_5090/SUPP_ABLATION/ACR_GRL_only/seed31415/checkpoints/best_pool_ema.pt"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "task_name": "known_people_unknown_freq",
+  "source_frequencies": [
+    "10GHz",
+    "24GHz"
+  ],
+  "target_frequency": "77GHz",
+  "known_subjects": [
+    "ua_0000",
+    "ua_0010",
+    "ua_0014",
+    "ua_0029",
+    "ua_0030"
+  ],
+  "num_known_subjects": 5,
+  "total_rows": 1930,
+  "source_rows": 1277,
+  "test_rows": 653,
+  "split_counts": {
+    "test": 653,
+    "train": 1024,
+    "val": 253
+  },
+  "split_frequency_counts": {
+    "test|77GHz": 653,
+    "train|10GHz": 481,
+    "train|24GHz": 543,
+    "val|10GHz": 121,
+    "val|24GHz": 132
+  },
+  "split_subject_counts": {
+    "test|ua_0000": 9,
+    "test|ua_0010": 117,
+    "test|ua_0014": 89,
+    "test|ua_0029": 223,
+    "test|ua_0030": 215,
+    "train|ua_0000": 8,
+    "train|ua_0010": 159,
+    "train|ua_0014": 161,
+    "train|ua_0029": 344,
+    "train|ua_0030": 352,
+    "val|ua_0000": 2,
+    "val|ua_0010": 38,
+    "val|ua_0014": 41,
+    "val|ua_0029": 85,
+    "val|ua_0030": 87
+  },
+  "split_class_counts": {
+    "test|Away": 60,
+    "test|Bend": 59,
+    "test|Crawl": 61,
+    "test|Kneel": 62,
+    "test|Limp": 59,
+    "test|Pick": 60,
+    "test|SStep": 60,
+    "test|Scissor": 57,
+    "test|Sit": 57,
+    "test|Toes": 58,
+    "test|Towards": 60,
+    "train|Away": 90,
+    "train|Bend": 95,
+    "train|Crawl": 96,
+    "train|Kneel": 102,
+    "train|Limp": 100,
+    "train|Pick": 90,
+    "train|SStep": 86,
+    "train|Scissor": 91,
+    "train|Sit": 97,
+    "train|Toes": 93,
+    "train|Towards": 84,
+    "val|Away": 24,
+    "val|Bend": 24,
+    "val|Crawl": 23,
+    "val|Kneel": 24,
+    "val|Limp": 23,
+    "val|Pick": 23,
+    "val|SStep": 20,
+    "val|Scissor": 22,
+    "val|Sit": 25,
+    "val|Toes": 23,
+    "val|Towards": 22
+  },
+  "missing_subject_class_frequency_triplets": [
+    {
+      "subject": "ua_0000",
+      "class": "Away",
+      "present_frequencies": [
+        "24GHz"
+      ],
+      "missing_frequencies": [
+        "10GHz",
+        "77GHz"
+      ]
+    },
+    {
+      "subject": "ua_0000",
+      "class": "Towards",
+      "present_frequencies": [
+        "24GHz",
+        "77GHz"
+      ],
+      "missing_frequencies": [
+        "10GHz"
+      ]
+    },
+    {
+      "subject": "ua_0010",
+      "class": "Kneel",
+      "present_frequencies": [
+        "24GHz",
+        "77GHz"
+      ],
+      "missing_frequencies": [
+        "10GHz"
+      ]
+    },
+    {
+      "subject": "ua_0010",
+      "class": "Sit",
+      "present_frequencies": [
+        "24GHz",
+        "77GHz"
+      ],
+      "missing_frequencies": [
+        "10GHz"
+      ]
+    },
+    {
+      "subject": "ua_0014",
+      "class": "Towards",
+      "present_frequencies": [
+        "24GHz"
+      ],
+      "missing_frequencies": [
+        "10GHz",
+        "77GHz"
+      ]
+    }
+  ]
+}

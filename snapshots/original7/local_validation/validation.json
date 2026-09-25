@@ -1,0 +1,291 @@
+{
+  "date": "2026-09-20",
+  "unit_tests": {
+    "passed": 30,
+    "failed": 0
+  },
+  "modified_python_files_compile": 12,
+  "local_gpu": "RTX 4070 Laptop GPU, 8GB",
+  "reproduction": {
+    "name": "DAS+ACR (A_V13_GRL)",
+    "config": "A_V13_GRL",
+    "n_seeds": 3,
+    "single_f1_mean": 0.8329706645191504,
+    "single_f1_std": 0.03461965382219831,
+    "single_acc_mean": 0.8365231259968101,
+    "single_acc_std": 0.0332259436299835,
+    "single_f1_seeds": [
+      0.791,
+      0.8322,
+      0.8758
+    ],
+    "ens_majority_f1": 0.8512003152544871,
+    "ens_majority_acc": 0.854066985645933,
+    "ens_logitavg_f1": 0.8565778437817949,
+    "ens_logitavg_acc": 0.8588516746411483,
+    "ens_posterior_f1": 0.8562141682516896,
+    "ens_posterior_acc": 0.8588516746411483
+  },
+  "unified_xcheck_max_abs_diff": 0.0,
+  "ensemble_posterior_bootstrap_ci95": [
+    0.8212554740472762,
+    0.8887451798673781
+  ],
+  "gpu_process_checks": [
+    {
+      "name": "restore_target10",
+      "command": [
+        "C:\\Users\\zhang\\Documents\\Codex\\2026-09-20\\c-users-zhang-downloads-crosscarrier-repro\\work\\venv\\Scripts\\python.exe",
+        "cross_frequency.py",
+        "eval",
+        "--target",
+        "10",
+        "--protocol",
+        "grouped",
+        "--precision",
+        "bf16",
+        "--run-dir",
+        "C:\\Users\\zhang\\Documents\\Codex\\2026-09-20\\c-users-zhang-downloads-crosscarrier-repro\\work\\smoke\\target10",
+        "--batch-size",
+        "2",
+        "--eval-batch-size",
+        "8",
+        "--num-workers",
+        "0"
+      ],
+      "exit_code": 0,
+      "seconds": 20.125
+    },
+    {
+      "name": "train_target24_fp16",
+      "command": [
+        "C:\\Users\\zhang\\Documents\\Codex\\2026-09-20\\c-users-zhang-downloads-crosscarrier-repro\\work\\venv\\Scripts\\python.exe",
+        "cross_frequency.py",
+        "train",
+        "--target",
+        "24",
+        "--protocol",
+        "grouped",
+        "--precision",
+        "fp16",
+        "--epochs",
+        "1",
+        "--max-steps",
+        "8",
+        "--run-dir",
+        "C:\\Users\\zhang\\Documents\\Codex\\2026-09-20\\c-users-zhang-downloads-crosscarrier-repro\\work\\smoke\\target24_fp16",
+        "--batch-size",
+        "2",
+        "--eval-batch-size",
+        "8",
+        "--num-workers",
+        "0"
+      ],
+      "exit_code": 0,
+      "seconds": 24.969000000011874
+    },
+    {
+      "name": "train_target77_legacy",
+      "command": [
+        "C:\\Users\\zhang\\Documents\\Codex\\2026-09-20\\c-users-zhang-downloads-crosscarrier-repro\\work\\venv\\Scripts\\python.exe",
+        "cross_frequency.py",
+        "train",
+        "--target",
+        "77",
+        "--protocol",
+        "legacy",
+        "--precision",
+        "bf16",
+        "--epochs",
+        "1",
+        "--max-steps",
+        "1",
+        "--run-dir",
+        "C:\\Users\\zhang\\Documents\\Codex\\2026-09-20\\c-users-zhang-downloads-crosscarrier-repro\\work\\smoke\\target77_legacy",
+        "--batch-size",
+        "2",
+        "--eval-batch-size",
+        "8",
+        "--num-workers",
+        "0"
+      ],
+      "exit_code": 0,
+      "seconds": 21.905999999988126
+    },
+    {
+      "name": "train_control_grouped77",
+      "exit_code": 0,
+      "seconds": 13.046999999991385,
+      "command": [
+        "C:\\Users\\zhang\\Documents\\Codex\\2026-09-20\\c-users-zhang-downloads-crosscarrier-repro\\work\\venv\\Scripts\\python.exe",
+        "cross_frequency.py",
+        "train",
+        "--target",
+        "77",
+        "--variant",
+        "no_das_acr",
+        "--protocol",
+        "grouped",
+        "--epochs",
+        "1",
+        "--max-steps",
+        "1",
+        "--batch-size",
+        "2",
+        "--eval-batch-size",
+        "8",
+        "--precision",
+        "bf16",
+        "--num-workers",
+        "0",
+        "--skip-final-eval",
+        "--run-dir",
+        "C:\\Users\\zhang\\Documents\\Codex\\2026-09-20\\c-users-zhang-downloads-crosscarrier-repro\\work\\smoke\\target77_grouped_control"
+      ]
+    }
+  ],
+  "smoke_training": {
+    "target10": {
+      "history": [
+        {
+          "epoch": 1,
+          "time_s": 1.2143476009368896,
+          "steps": 1,
+          "global_step": 1,
+          "optimizer_updates": 1,
+          "fp16_overflow_skips": 0,
+          "grad_scaler_scale": 1.0,
+          "train_acc": 0.0,
+          "loss_ce": 7.543557643890381,
+          "loss_sc": 2.384185791015625e-07,
+          "loss_mi": 1.017755389213562,
+          "loss_v13": 0.061556875705718994,
+          "loss_grl": 3.1434638500213623,
+          "loss_v15": 0.0,
+          "grl_lambda": 0.0,
+          "lr_end": 9.999999999999999e-05,
+          "das_stage": {
+            "name": "stage1",
+            "p": 0.35,
+            "f_low": 10.0,
+            "f_high": 24.0
+          },
+          "source_validation": null,
+          "target_evaluation": null,
+          "smoke_only": true
+        }
+      ],
+      "checkpoint_saved": true,
+      "full_target_evaluated": true
+    },
+    "target24_fp16": {
+      "history": [
+        {
+          "epoch": 1,
+          "time_s": 3.48407244682312,
+          "steps": 8,
+          "global_step": 8,
+          "optimizer_updates": 4,
+          "fp16_overflow_skips": 4,
+          "grad_scaler_scale": 4096.0,
+          "train_acc": 0.1875,
+          "loss_ce": 8.606548368930817,
+          "loss_sc": 1.1920928955078125e-07,
+          "loss_mi": 1.0151195600628853,
+          "loss_v13": 0.044883049791678786,
+          "loss_grl": 2.7596187591552734,
+          "loss_v15": 0.0,
+          "grl_lambda": 0.999683127561795,
+          "lr_end": 9.999999999999999e-05,
+          "das_stage": {
+            "name": "stage1",
+            "p": 0.35,
+            "f_low": 10.0,
+            "f_high": 24.0
+          },
+          "source_validation": null,
+          "target_evaluation": null,
+          "smoke_only": true
+        }
+      ],
+      "checkpoint_saved": true,
+      "full_target_evaluated": true
+    },
+    "target77_legacy": {
+      "history": [
+        {
+          "epoch": 1,
+          "time_s": 0.9143598079681396,
+          "steps": 1,
+          "global_step": 1,
+          "optimizer_updates": 1,
+          "fp16_overflow_skips": 0,
+          "grad_scaler_scale": 1.0,
+          "train_acc": 0.5,
+          "loss_ce": 7.428955078125,
+          "loss_sc": 2.384185791015625e-07,
+          "loss_mi": 1.0203582048416138,
+          "loss_v13": 0.011092552915215492,
+          "loss_grl": 1.9592185020446777,
+          "loss_v15": 0.0,
+          "grl_lambda": 0.0,
+          "lr_end": 9.999999999999999e-05,
+          "das_stage": {
+            "name": "stage1",
+            "p": 0.35,
+            "f_low": 10.0,
+            "f_high": 24.0
+          },
+          "source_validation": null,
+          "target_evaluation": null,
+          "smoke_only": true
+        }
+      ],
+      "checkpoint_saved": true,
+      "full_target_evaluated": true
+    },
+    "target77_grouped_control": {
+      "history": [
+        {
+          "epoch": 1,
+          "time_s": 0.8429484367370605,
+          "steps": 1,
+          "global_step": 1,
+          "optimizer_updates": 1,
+          "fp16_overflow_skips": 0,
+          "grad_scaler_scale": 1.0,
+          "train_acc": 0.0,
+          "loss_ce": 8.400386810302734,
+          "loss_sc": 4.76837158203125e-07,
+          "loss_mi": 1.0311167240142822,
+          "loss_v13": 0.0,
+          "loss_grl": 0.0,
+          "loss_v15": 0.0,
+          "grl_lambda": 0.0,
+          "lr_end": 9.999999999999999e-05,
+          "das_stage": {
+            "name": "off",
+            "p": 0.0,
+            "f_low": 0.0,
+            "f_high": 0.0
+          },
+          "source_validation": null,
+          "target_evaluation": null,
+          "smoke_only": true
+        }
+      ],
+      "checkpoint_saved": true,
+      "full_target_evaluated": false
+    }
+  },
+  "full_100_epoch_retraining_completed": false,
+  "sockeye_submitted": false,
+  "bash_slurm_execution_verified": false,
+  "caveats": [
+    "Smoke metrics are excluded from accuracy claims.",
+    "Single-seed full-418 results differ slightly from shipped reference; ensemble results agree.",
+    "Legacy source train/val shares121 recording keys and8 identical-image groups.",
+    "Grouped protocol still shares synchronized recording events across source and target carriers.",
+    "Sockeye V100 environment candidate is documented but untested on cluster."
+  ]
+}

@@ -1,0 +1,24 @@
+[11:05:40] method=selafd seed=31415 recipe=strong device=cuda run_dir=G:\zhanghe\Letter journal\EXPERIMENTSRESULT\REVISION_5090\public_baseline\runs_strong\selafd\seed31415
+[11:05:40] splits: train=644 val(source)=162 test77=418
+[11:05:49] trainable=14.484M / total=100.28M
+[11:05:49] native: opt=adam lr=0.0005 wd=0.0 grad_clip=1.0 ema_decay=0.995 ema_start=5 epochs=100 steps/epoch=40 ce_ls=0.05 model_cfg={'rank': 8, 'alpha': 8} aug=(intensity=0.08,noise=0.01,mask_p=0.4,mask_frac=0.06)
+[11:05:58] ep 005/100 loss=0.4986 val_ema_f1=0.7695 test77_ema=0.2608/0.2058 lr=4.99e-04
+[11:06:08] ep 010/100 loss=0.3282 val_ema_f1=0.8944 test77_ema=0.2297/0.1627 lr=4.94e-04
+[11:06:18] ep 015/100 loss=0.2830 val_ema_f1=0.9116 test77_ema=0.2895/0.2067 lr=4.81e-04
+[11:06:28] ep 020/100 loss=0.2825 val_ema_f1=0.9068 test77_ema=0.2823/0.1992 lr=4.63e-04
+[11:06:38] ep 025/100 loss=0.2781 val_ema_f1=0.9132 test77_ema=0.2488/0.1581 lr=4.39e-04
+[11:06:47] ep 030/100 loss=0.2742 val_ema_f1=0.9067 test77_ema=0.2799/0.1938 lr=4.11e-04
+[11:06:57] ep 035/100 loss=0.2740 val_ema_f1=0.9003 test77_ema=0.2895/0.1915 lr=3.78e-04
+[11:07:07] ep 040/100 loss=0.2723 val_ema_f1=0.8876 test77_ema=0.2632/0.1628 lr=3.41e-04
+[11:07:16] ep 045/100 loss=0.2566 val_ema_f1=0.8741 test77_ema=0.2608/0.1616 lr=3.02e-04
+[11:07:26] ep 050/100 loss=0.2662 val_ema_f1=0.8887 test77_ema=0.3158/0.2272 lr=2.62e-04
+[11:07:36] ep 055/100 loss=0.2571 val_ema_f1=0.9154 test77_ema=0.3110/0.2239 lr=2.22e-04
+[11:07:45] ep 060/100 loss=0.2543 val_ema_f1=0.9017 test77_ema=0.2512/0.1705 lr=1.82e-04
+[11:07:55] ep 065/100 loss=0.2542 val_ema_f1=0.9052 test77_ema=0.2560/0.1741 lr=1.44e-04
+[11:08:04] ep 070/100 loss=0.2597 val_ema_f1=0.9054 test77_ema=0.2488/0.1741 lr=1.09e-04
+[11:08:14] ep 075/100 loss=0.2609 val_ema_f1=0.8857 test77_ema=0.2536/0.1748 lr=7.77e-05
+[11:08:23] ep 080/100 loss=0.2548 val_ema_f1=0.8917 test77_ema=0.2632/0.1801 lr=5.08e-05
+[11:08:33] ep 085/100 loss=0.2538 val_ema_f1=0.8990 test77_ema=0.2608/0.1743 lr=2.90e-05
+[11:08:42] ep 090/100 loss=0.2538 val_ema_f1=0.8929 test77_ema=0.2512/0.1555 lr=1.31e-05
+[11:08:51] ep 095/100 loss=0.2539 val_ema_f1=0.8857 test77_ema=0.2536/0.1540 lr=3.30e-06
+[11:09:00] ep 100/100 loss=0.2538 val_ema_f1=0.8857 test77_ema=0.2536/0.1542 lr=8.19e-11

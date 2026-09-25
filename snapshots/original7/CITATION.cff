@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the associated paper and this archive."
+title: "TODO: final paper title (Cross-Carrier Radar Micro-Doppler HAR with DAS + ACR)"
+authors:
+  - family-names: "Lin"
+    given-names: "Zirui"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO
+    # affiliation: "TODO"
+# Add co-authors here as needed.
+version: "1.0.0"
+date-released: "2026-06-09"
+license: "MIT"
+# doi: "10.5281/zenodo.XXXXXXX"   # TODO: fill in after the Zenodo deposit is created
+repository-code: "https://github.com/USERNAME/REPO"   # TODO
+keywords:
+  - "radar micro-Doppler"
+  - "human activity recognition"
+  - "cross-carrier generalization"
+  - "domain adaptation"
+  - "DINOv3"

@@ -1,0 +1,24 @@
+[05:50:18] backbone=mobilenetv3_l (mobilenetv3_large_100.ra_in1k) seed=31415 recipe=strong device=cuda run_dir=G:\zhanghe\Letter journal\EXPERIMENTSRESULT\REVISION_5090\public_baseline\runs_strong\mobilenetv3_l\seed31415
+[05:50:18] splits: train=644 val(source)=162 test77=418
+[05:50:20] trainable=4.53M / total=4.53M  feat_dim=1280 head_hidden=256 dropout=0.3
+[05:50:20] epochs=100 steps/epoch=40 total_steps=4000 lr=0.0003 backbone_lr=0.0001 head_lr=0.0007 wd=0.02 batch=16 warmup_ep=3 ema_decay=0.995 ema_start=5 freeze_backbone_ep=0 grad_clip=1.0 mixup=0.15 aug=(intensity=0.12,noise=0.02,mask_p=0.5,mask_frac=0.08)
+[05:50:26] ep 005/100 loss=0.7947 val_ema=0.1852/0.1627 test77_ema=0.1914/0.1015 lr_bb=9.99e-05 lr_head=6.99e-04
+[05:50:31] ep 010/100 loss=0.5632 val_ema=0.8704/0.8724 test77_ema=0.1555/0.0554 lr_bb=9.87e-05 lr_head=6.91e-04
+[05:50:37] ep 015/100 loss=0.4165 val_ema=0.9444/0.9450 test77_ema=0.1507/0.0493 lr_bb=9.63e-05 lr_head=6.74e-04
+[05:50:43] ep 020/100 loss=0.5020 val_ema=0.9444/0.9445 test77_ema=0.1483/0.0453 lr_bb=9.26e-05 lr_head=6.48e-04
+[05:50:48] ep 025/100 loss=0.4391 val_ema=0.9506/0.9501 test77_ema=0.1531/0.0541 lr_bb=8.79e-05 lr_head=6.15e-04
+[05:50:54] ep 030/100 loss=0.3791 val_ema=0.9568/0.9564 test77_ema=0.1675/0.0758 lr_bb=8.21e-05 lr_head=5.75e-04
+[05:51:00] ep 035/100 loss=0.3975 val_ema=0.9568/0.9564 test77_ema=0.1699/0.0806 lr_bb=7.55e-05 lr_head=5.29e-04
+[05:51:05] ep 040/100 loss=0.3427 val_ema=0.9568/0.9564 test77_ema=0.1866/0.1014 lr_bb=6.82e-05 lr_head=4.78e-04
+[05:51:11] ep 045/100 loss=0.4653 val_ema=0.9691/0.9687 test77_ema=0.1651/0.0733 lr_bb=6.05e-05 lr_head=4.23e-04
+[05:51:18] ep 050/100 loss=0.3940 val_ema=0.9630/0.9626 test77_ema=0.1675/0.0777 lr_bb=5.25e-05 lr_head=3.67e-04
+[05:51:23] ep 055/100 loss=0.3798 val_ema=0.9691/0.9687 test77_ema=0.1818/0.0970 lr_bb=4.44e-05 lr_head=3.11e-04
+[05:51:29] ep 060/100 loss=0.3890 val_ema=0.9753/0.9748 test77_ema=0.1770/0.0891 lr_bb=3.64e-05 lr_head=2.55e-04
+[05:51:35] ep 065/100 loss=0.3764 val_ema=0.9753/0.9748 test77_ema=0.2153/0.1266 lr_bb=2.89e-05 lr_head=2.02e-04
+[05:51:40] ep 070/100 loss=0.3007 val_ema=0.9753/0.9748 test77_ema=0.2129/0.1213 lr_bb=2.18e-05 lr_head=1.53e-04
+[05:51:46] ep 075/100 loss=0.3720 val_ema=0.9753/0.9748 test77_ema=0.2440/0.1394 lr_bb=1.55e-05 lr_head=1.09e-04
+[05:51:52] ep 080/100 loss=0.3970 val_ema=0.9753/0.9748 test77_ema=0.2440/0.1382 lr_bb=1.02e-05 lr_head=7.11e-05
+[05:51:58] ep 085/100 loss=0.3997 val_ema=0.9753/0.9748 test77_ema=0.2392/0.1378 lr_bb=5.80e-06 lr_head=4.06e-05
+[05:52:04] ep 090/100 loss=0.3235 val_ema=0.9753/0.9748 test77_ema=0.2416/0.1361 lr_bb=2.61e-06 lr_head=1.83e-05
+[05:52:09] ep 095/100 loss=0.4041 val_ema=0.9753/0.9748 test77_ema=0.2416/0.1377 lr_bb=6.61e-07 lr_head=4.62e-06
+[05:52:15] ep 100/100 loss=0.3414 val_ema=0.9753/0.9748 test77_ema=0.2392/0.1335 lr_bb=1.64e-11 lr_head=1.15e-10

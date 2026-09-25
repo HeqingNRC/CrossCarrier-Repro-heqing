@@ -1,0 +1,5 @@
+[04:33:43] backbone=mobilenetv3_l (mobilenetv3_large_100.ra_in1k) seed=42 recipe=strong device=cuda run_dir=G:\zhanghe\Letter journal\EXPERIMENTSRESULT\REVISION_5090\public_baseline\runs_strong\_smoke\mobilenetv3_l
+[04:33:43] splits: train=644 val(source)=162 test77=418
+[04:33:46] trainable=4.53M / total=4.53M  feat_dim=1280 head_hidden=256 dropout=0.3
+[04:33:46] epochs=1 steps/epoch=40 total_steps=40 lr=0.0003 backbone_lr=0.0001 head_lr=0.0007 wd=0.02 batch=16 warmup_ep=3 ema_decay=0.995 ema_start=1 freeze_backbone_ep=0 grad_clip=1.0 mixup=0.15 aug=(intensity=0.12,noise=0.02,mask_p=0.5,mask_frac=0.08)
+[04:33:49] ep 001/1 loss=1.8152 val_ema=0.1605/0.1350 test77_ema=0.0335/0.0217 lr_bb=3.33e-05 lr_head=2.33e-04

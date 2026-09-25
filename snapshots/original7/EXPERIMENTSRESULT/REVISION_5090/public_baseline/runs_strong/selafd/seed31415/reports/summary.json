@@ -1,0 +1,29 @@
+{
+  "method": "selafd",
+  "family": "external",
+  "seed": 31415,
+  "epochs": 100,
+  "recipe": "strong",
+  "model_cfg": {
+    "rank": 8,
+    "alpha": 8
+  },
+  "n_trainable": 14483719,
+  "n_total": 100282375,
+  "train_time_s": 191.37462639808655,
+  "final_ema": {
+    "test77_acc": 0.2535885167464115,
+    "test77_macro_f1": 0.15419698872936283,
+    "test77_per_class_f1": [
+      0.6618705035971223,
+      0.0,
+      0.0,
+      0.0,
+      0.1212121212121212,
+      0.0,
+      0.2962962962962963
+    ],
+    "source_val_macro_f1": 0.8857379694298546,
+    "gen_gap": 0.7315409807004918
+  }
+}

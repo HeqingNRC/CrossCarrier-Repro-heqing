@@ -1,0 +1,1 @@
+{"epoch": 100, "total": 100, "name": "vgg16_bn", "seed": 42, "family": "generic", "recipe": "strong"}

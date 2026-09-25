@@ -1,0 +1,70 @@
+{
+  "dataset": "core6",
+  "target": "77GHz",
+  "sources": [
+    "10GHz",
+    "24GHz"
+  ],
+  "classes": [
+    "Away",
+    "Bend",
+    "Kneel",
+    "Pick",
+    "Sit",
+    "Towards"
+  ],
+  "protocol": "core6_legacy_image_split_70_10_20",
+  "n": {
+    "train": 677,
+    "val": 102,
+    "test": 73
+  },
+  "source_repo": "/scratch/st-zliu-1/heqingz/CrossCarrier_Core6_FullSuite_20260924/evidence",
+  "source_hashes": {
+    "baseline_v20/config.py": "ee85916ab943d9f5702ac640012fad60c8d5915e2e49553d9675cc64cd5b6436",
+    "baseline_v20/v9_2_1lib.py": "d87779bcb2a911fc5488c3e844df3e0060a11e25587a53d26f5c798fde2f39cc",
+    "baseline_v20/train.py": "91e1d2abde80ebf010ae8838bb34272c2fc6a3f93cf583cbdf9eb33dc6eca003",
+    "baseline_v9/v9lib.py": "62ea7cf241856c9a706e739685151691eeb42c3528638f128f41a98d36559565",
+    "baseline_v8/v8lib.py": "7c5c0b361c2dc10d3280cd1fb6859857642926274f51f741a2d625780b77842b",
+    "EXPERIMENTSRESULT/v15_v18_common_train.py": "f114aa8e11b072b4f724d3a6f83f121798c17cfc4c4faf8850823bffaf36ff53",
+    "pool_protocol.py": "1bb4581065d112a7329ff7800dd31f944f3aeb9be9f1a701db8e21ea6321fa9f",
+    "baseline_v20/ensemble_rules.py": "2fe1bd4c19f4cc46c91083feaed63c7115525b14e05c87ca93bcfcb3d3e073a0",
+    "EXPERIMENTSRESULT/REVISION_5090/public_baseline/pb_eval_unified.py": "53bb7402047b00df134b7d9422ab8f4256bc172d084f5fecc689ae2662553ba7"
+  },
+  "manifest_hashes": {
+    "train.csv": "ea4c25428d11770b811ce235410cfd1f103fc477de6d61f9e8de5aed15821f1e",
+    "val.csv": "450602732d9231b052be5378ef576014bbfe6dd7ce7cb2aea22d9d20e2edcfd4",
+    "test.csv": "5a3f867446a653b911809a09a0eabc9dde93f8f047aa115b969f94df89d40702"
+  },
+  "source_split_hashes": {
+    "10GHz": "2fa089995e39d4eebd33eb7f0c452040ce9d90823ce5056f646f2d66dc182d21",
+    "24GHz": "d880ae0ad703d7cd28e922ab3d2925a18d5a169192d7b8bc918905222b57d052",
+    "77GHz": "714545f678966febcc9faca380ad2ff2958d363b5c013e59b958318dc150df7c"
+  },
+  "missing_or_unreadable_images": [],
+  "duplicate_risk": true,
+  "active_cross_split_identical_input": [
+    {
+      "digest": "c0015ff548fe50c2a141eaa9fb7f51f01729dd63c1318d98567216915351ea50",
+      "rows": [
+        {
+          "path": "/arc/project/st-zliu-1/heqingz/datasets/domainGenDataset_core_movements/10GHz/Kneel/06100029_1574628522.png",
+          "frequency": "10GHz",
+          "class": "Kneel",
+          "split": "train"
+        },
+        {
+          "path": "/arc/project/st-zliu-1/heqingz/datasets/domainGenDataset_core_movements/10GHz/Kneel/06100029_1574628522 (copy).png",
+          "frequency": "10GHz",
+          "class": "Kneel",
+          "split": "val"
+        }
+      ]
+    }
+  ],
+  "legacy_preservation_acknowledged": true,
+  "axis_calibration_verified": false,
+  "subject_disjoint_verified": false,
+  "hdf5_tensor_equivalence_verified": false,
+  "note": "Historical PNG paths and image-level splits retained. No dataset file is moved or modified. Do not claim subject/session independence."
+}

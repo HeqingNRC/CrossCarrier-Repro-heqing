@@ -1,0 +1,58 @@
+{
+  "backbone": "convnext_t",
+  "timm_name": "convnext_tiny.fb_in1k",
+  "family": "generic",
+  "seed": 42,
+  "epochs": 100,
+  "recipe": "strong",
+  "n_trainable": 28220007,
+  "n_total": 28220007,
+  "model_cfg": {
+    "dropout": 0.35,
+    "head_hidden": 512
+  },
+  "train_cfg": {
+    "lr": 0.0003,
+    "backbone_lr": 5e-05,
+    "head_lr": 0.0006,
+    "weight_decay": 0.05,
+    "batch_size": 16,
+    "warmup_epochs": 3,
+    "label_smoothing": 0.03,
+    "ema_decay": 0.995,
+    "ema_start": 5,
+    "freeze_backbone_epochs": 5,
+    "grad_clip": 1.0,
+    "mixup_alpha": 0.2,
+    "aug_intensity": 0.1,
+    "aug_noise": 0.015,
+    "aug_mask_prob": 0.5,
+    "aug_mask_frac": 0.08
+  },
+  "train_time_s": 131.74963188171387,
+  "final_ema": {
+    "test77_acc": 0.2894736842105263,
+    "test77_macro_f1": 0.18735019406640122,
+    "test77_per_class_f1": [
+      0.5764705882352941,
+      0.2352941176470588,
+      0.0,
+      0.03125,
+      0.09900990099009901,
+      0.0,
+      0.3694267515923567
+    ],
+    "source_val_acc": 0.9814814814814815,
+    "source_val_macro_f1": 0.9810298592296915,
+    "gen_gap": 0.7936796651632904
+  },
+  "classes": [
+    "Away",
+    "Bend",
+    "Kneel",
+    "Pick",
+    "SStep",
+    "Sit",
+    "Towards"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "backbone": "vgg16_bn",
+  "timm_name": "vgg16_bn.tv_in1k",
+  "family": "generic",
+  "seed": 42,
+  "epochs": 100,
+  "recipe": "strong",
+  "n_trainable": 136379463,
+  "n_total": 136379463,
+  "model_cfg": {
+    "dropout": 0.5,
+    "head_hidden": 512
+  },
+  "train_cfg": {
+    "lr": 0.0003,
+    "backbone_lr": 5e-05,
+    "head_lr": 0.0005,
+    "weight_decay": 0.01,
+    "batch_size": 16,
+    "warmup_epochs": 3,
+    "label_smoothing": 0.0,
+    "ema_decay": 0.995,
+    "ema_start": 5,
+    "freeze_backbone_epochs": 10,
+    "grad_clip": 1.0,
+    "mixup_alpha": 0.2,
+    "aug_intensity": 0.1,
+    "aug_noise": 0.015,
+    "aug_mask_prob": 0.5,
+    "aug_mask_frac": 0.08
+  },
+  "train_time_s": 166.67162418365479,
+  "final_ema": {
+    "test77_acc": 0.24880382775119617,
+    "test77_macro_f1": 0.1281746031746032,
+    "test77_per_class_f1": [
+      0.3511904761904762,
+      0.0,
+      0.0,
+      0.0,
+      0.02222222222222222,
+      0.0,
+      0.5238095238095238
+    ],
+    "source_val_acc": 0.9876543209876543,
+    "source_val_macro_f1": 0.9875033788701059,
+    "gen_gap": 0.8593287756955027
+  },
+  "classes": [
+    "Away",
+    "Bend",
+    "Kneel",
+    "Pick",
+    "SStep",
+    "Sit",
+    "Towards"
+  ]
+}

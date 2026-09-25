@@ -1,0 +1,58 @@
+{
+  "backbone": "swin_t",
+  "timm_name": "swin_tiny_patch4_window7_224.ms_in1k",
+  "family": "generic",
+  "seed": 31415,
+  "epochs": 100,
+  "recipe": "strong",
+  "n_trainable": 27919233,
+  "n_total": 27919233,
+  "model_cfg": {
+    "dropout": 0.35,
+    "head_hidden": 512
+  },
+  "train_cfg": {
+    "lr": 0.0003,
+    "backbone_lr": 4e-05,
+    "head_lr": 0.0006,
+    "weight_decay": 0.05,
+    "batch_size": 16,
+    "warmup_epochs": 3,
+    "label_smoothing": 0.03,
+    "ema_decay": 0.995,
+    "ema_start": 5,
+    "freeze_backbone_epochs": 5,
+    "grad_clip": 1.0,
+    "mixup_alpha": 0.15,
+    "aug_intensity": 0.08,
+    "aug_noise": 0.01,
+    "aug_mask_prob": 0.4,
+    "aug_mask_frac": 0.06
+  },
+  "train_time_s": 155.35241842269897,
+  "final_ema": {
+    "test77_acc": 0.1937799043062201,
+    "test77_macro_f1": 0.11093137318338876,
+    "test77_per_class_f1": [
+      0.2857142857142857,
+      0.0,
+      0.0,
+      0.0,
+      0.10526315789473685,
+      0.0,
+      0.3855421686746988
+    ],
+    "source_val_acc": 0.9753086419753086,
+    "source_val_macro_f1": 0.9755436468230744,
+    "gen_gap": 0.8646122736396856
+  },
+  "classes": [
+    "Away",
+    "Bend",
+    "Kneel",
+    "Pick",
+    "SStep",
+    "Sit",
+    "Towards"
+  ]
+}

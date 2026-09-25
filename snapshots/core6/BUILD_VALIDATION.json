@@ -1,0 +1,32 @@
+{
+  "status": "PASS_CPU_AND_STATIC_ONLY",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "tests": [
+    {
+      "command": "python tests/test_core6_suite.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_actual_recorded_split_counts_and_label_map (__main__.Core6ContractTests.test_actual_recorded_split_counts_and_label_map) ... ok\ntest_all_target_recipe_configs_six_class_and_no_target_training (__main__.Core6ContractTests.test_all_target_recipe_configs_six_class_and_no_target_training) ... ok\ntest_controller_declares_cuda_guard_scaler_and_fixed_final (__main__.Core6ContractTests.test_controller_declares_cuda_guard_scaler_and_fixed_final) ... ok\ntest_core_ablation_differences (__main__.Core6ContractTests.test_core_ablation_differences) ... ok\ntest_exact_90_unique_runs (__main__.Core6ContractTests.test_exact_90_unique_runs) ... ok\ntest_original_source_integrity (__main__.Core6ContractTests.test_original_source_integrity) ... ok\ntest_twelve_smokes_cover_every_recipe_and_target (__main__.Core6ContractTests.test_twelve_smokes_cover_every_recipe_and_target) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.010s\n\nOK\n"
+    },
+    {
+      "command": "python tests/test_summary_fixture.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_complete_matrix_and_rejection_of_wrong_job (__main__.SummaryFixtureTest.test_complete_matrix_and_rejection_of_wrong_job) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.419s\n\nOK\n"
+    },
+    {
+      "command": "python tests/self_test.py --repo evidence --out /mnt/data/core6_objective_build_check.json",
+      "returncode": 0,
+      "stdout": "Model converged at step 8, Start step = 9; Threshold = 1.339000, \nModel converged at step 8, Start step = 9; Threshold = 1.339000, \nValley is dead at step 26\nValley is dead at step 26\n{\n  \"device\": \"CPU\",\n  \"torch\": \"2.10.0+cpu\",\n  \"tests\": {\n    \"cosine_Fishr_vs_autograd\": {\n      \"pass_\": true,\n      \"max_per_sample_grad_error\": 2.220446049250313e-16,\n      \"max_penalty_grad_error\": 3.903127820947816e-18\n    },\n    \"checkpoint_key_integrity\": true,\n    \"classification_metrics\": true,\n    \"SWAD_matches_supplied_original\": {\n      \"pass_\": true,\n      \"converged\": true,\n      \"dead_valley\": true\n    },\n    \"all_14_recipe_forward_backward_with_toy_encoder\": [\n      \"no_image_aug\",\n      \"radar_aug\",\n      \"jitter\",\n      \"dann\",\n      \"stretch_only\",\n      \"das_only\",\n      \"residual_only\",\n      \"grl_only\",\n      \"discrete_acr\",\n      \"proposed\",\n      \"narrow_das\",\n      \"wide_das\",\n      \"narrow_acr\",\n      \"wide_acr\"\n    ]\n  },\n  \"not_tested\": [\n    \"Real DINOv3/LoRA backbone\",\n    \"Real radar image data\",\n    \"GPU training\",\n    \"Actual accuracy or improvement\"\n  ],\n  \"status\": \"PASS_CPU_ONLY\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "not_tested": [
+    "Actual Sockeye filesystem and original Core6 PNG bytes",
+    "Real DINOv3/LoRA CUDA/FP16 execution",
+    "Full 100-epoch GPU training or accuracy"
+  ],
+  "gpu_jobs_submitted_by_assistant": 0,
+  "gpu_validation_gate": "12 new Slurm smoke tasks before a separate 90-run formal array",
+  "source_zip_sha256": "60357d2a5a0f018646f2a1c5170d89a8c6a53183a8c1d4ad70afc9014f2aa1e1"
+}

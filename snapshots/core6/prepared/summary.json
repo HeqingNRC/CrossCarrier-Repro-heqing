@@ -1,0 +1,45 @@
+{
+  "status": "CORE6_PREPARATION_PASS",
+  "raw_images": 1336,
+  "classes": [
+    "Away",
+    "Bend",
+    "Kneel",
+    "Pick",
+    "Sit",
+    "Towards"
+  ],
+  "source_root_override": null,
+  "protocols": [
+    {
+      "target": "10GHz",
+      "n": {
+        "train": 677,
+        "val": 102,
+        "test": 73
+      },
+      "duplicate_groups": 1
+    },
+    {
+      "target": "24GHz",
+      "n": {
+        "train": 496,
+        "val": 74,
+        "test": 126
+      },
+      "duplicate_groups": 2
+    },
+    {
+      "target": "77GHz",
+      "n": {
+        "train": 677,
+        "val": 102,
+        "test": 73
+      },
+      "duplicate_groups": 1
+    }
+  ],
+  "unreadable": 0,
+  "preserve_legacy_splits": true,
+  "no_training_submitted": true
+}

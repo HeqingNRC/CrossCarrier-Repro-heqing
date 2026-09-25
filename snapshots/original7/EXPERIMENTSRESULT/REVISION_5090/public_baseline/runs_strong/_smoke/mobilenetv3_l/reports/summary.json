@@ -1,0 +1,58 @@
+{
+  "backbone": "mobilenetv3_l",
+  "timm_name": "mobilenetv3_large_100.ra_in1k",
+  "family": "generic",
+  "seed": 42,
+  "epochs": 1,
+  "recipe": "strong",
+  "n_trainable": 4534839,
+  "n_total": 4534839,
+  "model_cfg": {
+    "dropout": 0.3,
+    "head_hidden": 256
+  },
+  "train_cfg": {
+    "lr": 0.0003,
+    "backbone_lr": 0.0001,
+    "head_lr": 0.0007,
+    "weight_decay": 0.02,
+    "batch_size": 16,
+    "warmup_epochs": 3,
+    "label_smoothing": 0.02,
+    "ema_decay": 0.995,
+    "ema_start": 1,
+    "freeze_backbone_epochs": 0,
+    "grad_clip": 1.0,
+    "mixup_alpha": 0.15,
+    "aug_intensity": 0.12,
+    "aug_noise": 0.02,
+    "aug_mask_prob": 0.5,
+    "aug_mask_frac": 0.08
+  },
+  "train_time_s": 2.991116762161255,
+  "final_ema": {
+    "test77_acc": 0.03349282296650718,
+    "test77_macro_f1": 0.021704529269334853,
+    "test77_per_class_f1": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.042372881355932195,
+      0.0625,
+      0.047058823529411764
+    ],
+    "source_val_acc": 0.16049382716049382,
+    "source_val_macro_f1": 0.13502619844984376,
+    "gen_gap": 0.1133216691805089
+  },
+  "classes": [
+    "Away",
+    "Bend",
+    "Kneel",
+    "Pick",
+    "SStep",
+    "Sit",
+    "Towards"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "device": "CPU",
+  "torch": "2.5.1+cu118",
+  "tests": {
+    "cosine_Fishr_vs_autograd": {
+      "pass_": true,
+      "max_per_sample_grad_error": 2.220446049250313e-16,
+      "max_penalty_grad_error": 3.903127820947816e-18
+    },
+    "checkpoint_key_integrity": true,
+    "classification_metrics": true,
+    "SWAD_matches_supplied_original": {
+      "pass_": true,
+      "converged": true,
+      "dead_valley": true
+    },
+    "all_14_recipe_forward_backward_with_toy_encoder": [
+      "no_image_aug",
+      "radar_aug",
+      "jitter",
+      "dann",
+      "stretch_only",
+      "das_only",
+      "residual_only",
+      "grl_only",
+      "discrete_acr",
+      "proposed",
+      "narrow_das",
+      "wide_das",
+      "narrow_acr",
+      "wide_acr"
+    ]
+  },
+  "not_tested": [
+    "Real DINOv3/LoRA backbone",
+    "Real radar image data",
+    "GPU training",
+    "Actual accuracy or improvement"
+  ],
+  "status": "PASS_CPU_ONLY"
+}

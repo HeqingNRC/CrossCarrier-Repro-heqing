@@ -1,0 +1,22 @@
+[
+  {
+    "name": "DAS+ACR (A_V13_GRL)",
+    "config": "A_V13_GRL",
+    "n_seeds": 3,
+    "single_f1_mean": 0.832203752418576,
+    "single_f1_std": 0.03367567557450377,
+    "single_acc_mean": 0.8357256778309411,
+    "single_acc_std": 0.03223506049666307,
+    "single_f1_seeds": [
+      0.791,
+      0.8322,
+      0.8735
+    ],
+    "ens_majority_f1": 0.8512003152544871,
+    "ens_majority_acc": 0.854066985645933,
+    "ens_logitavg_f1": 0.8565778437817949,
+    "ens_logitavg_acc": 0.8588516746411483,
+    "ens_posterior_f1": 0.8562141682516896,
+    "ens_posterior_acc": 0.8588516746411483
+  }
+]
